@@ -12,13 +12,15 @@ body {
 h2{
   background: linear-gradient(#4371C4D4,#919666,#4371C4D4);
   color: mediumvioletred;
-border-radius: 30px;
+border-radius: 20px;
 font-size: 50px;
+width: 100%;
+margin-top: 2rem;
 }
 
 /* Main container */
 #weather-container {
-  background: linear-gradient(#325073,#A13681);
+  background: linear-gradient(#B8BACE,#A13681);
   padding: 2rem;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(rgba(113, 88, 143, 1),0 , 0, 0.1);
@@ -65,10 +67,13 @@ button:hover {
   font-size: 2rem;
   font-weight: bold;
   margin: 0;
+  color: #fff;
 }
 
 #weather-info p {
   margin: 0.5rem 0;
+  color: #fff;
+  font-size: 2rem;
 }
 
 /* Hourly forecast styling */
@@ -80,7 +85,7 @@ button:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* Fade-in animation */
